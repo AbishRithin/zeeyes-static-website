@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Clean Vector Panda Logo -->
+  <g fill="#FFFFFF">
+    <!-- Body & Face base -->
+    <ellipse cx="50" cy="55" rx="32" ry="30" fill="#FFFFFF" />
+    <circle cx="50" cy="38" r="24" fill="#FFFFFF" />
+  </g>
+  <!-- Black patches -->
+  <g fill="#111827">
+    <!-- Left Ear -->
+    <circle cx="31" cy="22" r="8" />
+    <!-- Right Ear -->
+    <circle cx="69" cy="22" r="8" />
+    <!-- Left Eye Patch -->
+    <ellipse cx="40" cy="36" rx="6.5" ry="8" transform="rotate(-15 40 36)" />
+    <!-- Right Eye Patch -->
+    <ellipse cx="60" cy="36" rx="6.5" ry="8" transform="rotate(15 60 36)" />
+    <!-- Left Eye White Pupil -->
+    <circle cx="41.5" cy="34.5" r="2" fill="#FFFFFF" />
+    <!-- Right Eye White Pupil -->
+    <circle cx="58.5" cy="34.5" r="2" fill="#FFFFFF" />
+    <!-- Nose & Mouth -->
+    <path d="M46 45.5C46 45.5 48 48 50 48C52 48 54 45.5 54 45.5C54 47 52.5 49.5 50 49.5C47.5 49.5 46 47 46 45.5Z" />
+    <!-- Left Arm/Shoulder -->
+    <path d="M23 48C21 54 22 66 26 76C28 80 32 82 35 80C38 78 37 72 35 65C34 60 33 53 28 48C26 46 24 47 23 48Z" />
+    <!-- Right Arm/Shoulder -->
+    <path d="M77 48C79 54 78 66 74 76C72 80 68 82 65 80C62 78 63 72 65 65C66 60 67 53 72 48C74 46 76 47 77 48Z" />
+    <!-- Back / Hind legs -->
+    <path d="M30 76C29 82 32 88 38 88C44 88 43 83 41 78C39 74 35 73 30 76Z" />
+    <path d="M70 76C71 82 68 88 62 88C56 88 57 83 59 78C61 74 65 73 70 76Z" />
+  </g>
+</svg>
+

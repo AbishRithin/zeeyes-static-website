@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Client Portal Login | ZEEYES Books</title>
+  <meta name="description" content="Sign in to your ZEEYES Books client portal to access real-time financial statements, communicate with your CPA, and download tax packets.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body style="background: #ffffff;">
+
+  <!-- Minimal Header / Back Link -->
+  <header style="border-bottom: 1px solid var(--border-light); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between;">
+    <a href="index.html" class="brand-logo">
+      <img src="assets/images/logo.svg" alt="ZEEYES Books" width="165" height="38">
+    </a>
+    <a href="index.html" style="font-size: 0.9rem; font-weight: 600; color: var(--text-muted); display: inline-flex; align-items: center; gap: 0.35rem;">
+      &larr; Back to Website
+    </a>
+  </header>
+
+  <div class="auth-wrapper">
+    <!-- Visual Side Panel -->
+    <div class="auth-panel-visual">
+      <div>
+        <div style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(5, 150, 105, 0.2); border: 1px solid rgba(5, 150, 105, 0.4); padding: 0.35rem 0.85rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; color: #34d399; text-transform: uppercase; margin-bottom: 2rem;">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          256-Bit Bank-Grade Encrypted Portal
+        </div>
+        <h2 style="font-family: var(--font-display); font-size: 2.5rem; font-weight: 800; line-height: 1.2; margin-bottom: 1.5rem;">
+          Real-Time Financial Intelligence at Your Fingertips.
+        </h2>
+        <p style="font-size: 1.05rem; color: #94a3b8; line-height: 1.6; max-width: 440px;">
+          Access your real-time P&amp;L statements, chat directly with your dedicated CPA, upload receipts, and monitor month-end close progress.
+        </p>
+      </div>
+
+      <!-- Testimonial Quote -->
+      <div style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 1.5rem; backdrop-filter: blur(8px);">
+        <p style="font-size: 0.9rem; line-height: 1.6; color: #e2e8f0; margin-bottom: 1rem;">
+          "Having a licensed CPA manually review every Stripe payout, multi-state payroll run, and vendor bill gives our board 100% confidence. Our month-end is closed by the 4th, every single month."
+        </p>
+        <div style="display: flex; align-items: center; gap: 0.65rem;">
+          <div style="width: 32px; height: 32px; border-radius: 50%; background: #059669; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.8rem;">
+            MC
+          </div>
+          <div>
+            <div style="font-weight: 700; font-size: 0.85rem; color: #ffffff;">Marcus Chen</div>
+            <div style="font-size: 0.75rem; color: #94a3b8;">Founder &amp; CEO, Heritage Roasters Co.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interactive Login Form Container -->
+    <div class="auth-form-container">
+      <h1 class="auth-title">Welcome Back</h1>
+      <p class="auth-subtitle">Sign in to manage your books, review statements, and message your CPA.</p>
+
+      <!-- One-Click Demo Account Banner -->
+      <div class="demo-account-box">
+        <div>
+          <div style="font-size: 0.85rem; font-weight: 700; color: #166534;">Want to test drive the live portal?</div>
+          <div style="font-size: 0.75rem; color: #15803d;">Instant access with simulated client financials.</div>
+        </div>
+        <button id="demo-login-btn" class="btn btn-accent btn-sm">1-Click Demo Login</button>
+        <div id="g_id_onload" data-client_id="YOUR_GOOGLE_CLIENT_ID" data-callback="handleGoogleCredentialResponse" data-auto_prompt="false"></div>
+      </div>
+
+      <!-- Social Auth Buttons -->
+      <div class="social-auth-btns">
+
+
+
+        <div id="g_id_onload" data-client_id="YOUR_GOOGLE_CLIENT_ID" data-callback="handleGoogleCredentialResponse" data-auto_prompt="false"></div>
+        
+<div class="g_id_signin" data-type="standard" data-size="large" data-theme="outline" data-text="signin_with" data-shape="rectangular" data-logo_alignment="left"></div>
+        <button class="btn-social" onclick="window.showToast('Connecting with Intuit Single Sign-On...', 'info'); setTimeout(() => window.location.href = 'portal.html', 1000);">
+          <span style="font-weight: 800; color: #2ca01c;">inтuiт</span>
+          Continue with Intuit
+
+        <div id="g_id_onload" data-client_id="YOUR_GOOGLE_CLIENT_ID" data-callback="handleGoogleCredentialResponse" data-auto_prompt="false"></div>
+      </div>
+
+      <div class="auth-divider">or sign in with business email</div>
+
+      <!-- Main Email/Password Form -->
+      <form id="login-form">
+        <div class="form-group">
+          <label class="form-label" for="login-email">Business Email</label>
+          <input type="email" id="login-email" class="form-control" placeholder="name@company.com" required>
+        </div>
+
+        <div class="form-group">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.45rem;">
+            <label class="form-label" for="login-password" style="margin-bottom: 0;">Password</label>
+            <a href="#" style="font-size: 0.8rem; color: var(--color-primary); font-weight: 600;" data-modal-target="forgot-modal">Forgot Password?</a>
+          </div>
+          <input type="password" id="login-password" class="form-control" placeholder="••••••••••••" required>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1.5rem;">
+          <input type="checkbox" id="remember-me" checked style="accent-color: var(--color-primary);">
+          <label for="remember-me" style="font-size: 0.85rem; color: var(--text-muted); cursor: pointer;">
+            Keep me securely signed in for 30 days
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block btn-lg">Sign In to Client Portal</button>
+        <div id="g_id_onload" data-client_id="YOUR_GOOGLE_CLIENT_ID" data-callback="handleGoogleCredentialResponse" data-auto_prompt="false"></div>
+      </form>
+
+      <div style="text-align: center; margin-top: 2rem; font-size: 0.875rem; color: var(--text-muted);">
+        Don't have an account yet? <a href="pricing.html" style="font-weight: 700; color: var(--color-primary);">Choose a Plan &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Forgot Password Modal -->
+  <div id="forgot-modal" class="modal-overlay" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3>Reset Your Password</h3>
+        <button class="modal-close-btn" data-modal-close>&times;</button>
+        <div id="g_id_onload" data-client_id="YOUR_GOOGLE_CLIENT_ID" data-callback="handleGoogleCredentialResponse" data-auto_prompt="false"></div>
+      </div>
+      <div class="modal-body">
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.25rem;">
+          Enter your registered business email and we'll send a secure password reset link to regain access.
+        </p>
+        <form id="forgot-password-form">
+          <div class="form-group">
+            <label class="form-label" for="reset-email">Work Email</label>
+            <input type="email" id="reset-email" class="form-control" required placeholder="name@company.com">
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Reset Link</button>
+        <div id="g_id_onload" data-client_id="YOUR_GOOGLE_CLIENT_ID" data-callback="handleGoogleCredentialResponse" data-auto_prompt="false"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/auth.js"></script>
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+  
+</body>
+</html>
+

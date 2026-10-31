@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZEEYES Books | Modern Bookkeeping, Tax &amp; Financial Advisory for Growing Businesses</title>
+  <meta name="description"
+    content="ZEEYES Books combines powerful automated software with dedicated expert CPAs to deliver spotless books, real-time financial clarity, and effortless tax filing.">
+
+  <!-- Google Fonts: Inter &amp; Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  <!-- Announcement Topbar -->
+  <div class="topbar">
+    <div class="topbar-content">
+      <span class="topbar-badge">TAX SEASON 2026</span>
+      <span>Behind on past months? Our licensed CPAs catch up messy ledgers in as little as 10 business days.</span>
+      <a href="pricing.html">Claim Free Ledger Review &rarr;</a>
+    </div>
+    <button class="topbar-close" aria-label="Close Announcement">&times;</button>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="ZEEYES Books Home">
+        <img src="assets/images/logo.svg" alt="ZEEYES Books Logo" width="165" height="38">
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-links">
+        <div class="nav-item"><a href="index.html" class="nav-link active">Home</a></div>
+        <div class="nav-item"><a href="services.html" class="nav-link">Services</a></div>
+        <div class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></div>
+        <div class="nav-item"><a href="integrations.html" class="nav-link">Integrations</a></div>
+        <div class="nav-item"><a href="resources.html" class="nav-link">Resources</a></div>
+        <div class="nav-item"><a href="about.html" class="nav-link">About Us</a></div>
+        <div class="nav-item"><a href="contact.html" class="nav-link">Contact</a></div>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <a href="login.html" class="login-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
+            <polyline points="10 17 15 12 10 7" />
+            <line x1="15" y1="12" x2="3" y2="12" />
+          </svg>
+          Client Login
+        </a>
+        
+        <button class="mobile-menu-toggle" aria-label="Toggle Navigation Menu">&#9776;</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer-backdrop"></div>
+  <aside class="mobile-drawer">
+    <div class="drawer-header">
+      <img src="assets/images/logo.svg" alt="ZEEYES Books" width="140" height="32">
+      <button class="drawer-close" aria-label="Close Menu">&times;</button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="integrations.html">Integrations</a>
+      <a href="resources.html">Resources</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="login.html" style="color: var(--color-primary); font-weight: 700;">Client Login &rarr;</a>
+    </div>
+    <div style="margin-top: auto; display: flex; flex-direction: column; gap: 0.75rem;">
+      <button class="btn btn-primary btn-block" data-modal-target="consultation-modal">Book a 1-on-1
+        Consultation</button>
+      <a href="login.html" class="btn btn-outline btn-block">Client Sign In</a>
+    </div>
+  </aside>
+
+  <!-- Main Hero Section -->
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="hero-badge-tag">100% Human-Reviewed</span>
+            <span>Zero AI Guesswork &middot; Dedicated Licensed CPAs</span>
+          </div>
+          <h1 class="hero-title">
+            Accurate books every month. Confident<br>
+            <span class="gradient-text">decisions every day.</span>
+          </h1>
+          <p class="hero-description">
+            Algorithms miscategorize expenses, miss tax deductions, and leave founders terrified of IRS audits. ZEEYES
+            Books provides dedicated US accountants who manually audit, categorize, and reconcile every transaction to
+            the penny.
+          </p>
+          <div class="hero-cta-group">
+            <button class="btn btn-primary btn-lg" data-modal-target="consultation-modal">
+              Schedule 1-on-1 Consultation
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </button>
+            <a href="pricing.html" class="btn btn-outline btn-lg">Explore Pricing &rarr;</a>
+          </div>
+          <div class="hero-trust-metrics">
+            <div class="trust-metric-item">
+              <span class="trust-metric-val">100%</span>
+              <span class="trust-metric-label">Human CPA Audited</span>
+            </div>
+            <div class="trust-metric-item">
+              <span class="trust-metric-val">By 5th</span>
+              <span class="trust-metric-label">Monthly Close Guarantee</span>
+            </div>
+            <div class="trust-metric-item">
+              <span class="trust-metric-val">1-on-1</span>
+              <span class="trust-metric-label">Direct Slack &amp; Phone Line</span>
+            </div>
+            <div class="trust-metric-item">
+              <span class="trust-metric-val">Zero</span>
+              <span class="trust-metric-label">Algorithm Guesswork</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Hero Visual: Handcrafted CPA Audit Station -->
+        <div class="hero-mockup-wrapper">
+          <!-- Live Dashboard Mock / Audit Workbench -->
+          <div class="hero-dashboard-mock">
+            <div class="mock-header">
+              <div style="display: flex; align-items: center; gap: 0.75rem;">
+                <div style="width: 12px; height: 12px; border-radius: 50%; background: #ef4444;"></div>
+                <div style="width: 12px; height: 12px; border-radius: 50%; background: #f59e0b;"></div>
+                <div style="width: 12px; height: 12px; border-radius: 50%; background: #d4886a;"></div>
+                <span style="font-size: 0.85rem; font-weight: 700; color: #334155; margin-left: 0.5rem;">
+                  ZEEYES CPA Audit Workbench
+                </span>
+              </div>
+              <span class="mock-status">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Human CPA Sign-Off Complete
+              </span>
+            </div>
+
+            <!-- Mode Switcher: Compare ZEEYES CPA vs Generic AI Bot -->
+            <div class="audit-switcher-bar">
+              <button type="button" id="tab-audit-human" class="audit-tab-btn human-btn active">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                ZEEYES Human CPA Review (0 Errors)
+              </button>
+              <button type="button" id="tab-audit-ai" class="audit-tab-btn ai-btn">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <circle cx="12" cy="12" r="10" />
+                  <line x1="12" y1="8" x2="12" y2="12" />
+                  <line x1="12" y1="16" x2="12.01" y2="16" />
+                </svg>
+                Generic AI Tool (3 Costly Errors)
+              </button>
+            </div>
+
+            <!-- Panel 1: ZEEYES Human CPA Mode -->
+            <div id="panel-audit-human" class="audit-ledger-panel">
+              <div class="audit-entry-card human-verified">
+                <div class="audit-entry-top">
+                  <span class="audit-entry-title">Stripe Merchant Payout #8492</span>
+                  <span class="audit-entry-amount positive">+$48,290.00</span>
+                </div>
+                <div class="audit-entry-desc">
+                  Reconciled against Chase Checking. Gross sales ($49,738.70) matched, and Stripe processing fees
+                  ($1,448.70) manually split into OpEx line #6040.
+                </div>
+                <span class="audit-entry-tag tag-safe">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  Hand-audited fee separation &middot; Zero variance
+                </span>
+              </div>
+
+              <div class="audit-entry-card human-verified">
+                <div class="audit-entry-top">
+                  <span class="audit-entry-title">Bulk Inventory Production (Factory Wire)</span>
+                  <span class="audit-entry-amount negative">-$18,500.00</span>
+                </div>
+                <div class="audit-entry-desc">
+                  Properly capitalized into Balance Sheet (Asset #1200 Inventory) until sold. Prevented AI bot from
+                  expensing it prematurely and triggering IRS red flags.
+                </div>
+                <span class="audit-entry-tag tag-safe">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  GAAP Inventory Matching Principle Applied
+                </span>
+              </div>
+
+              <div class="audit-entry-card human-verified">
+                <div class="audit-entry-top">
+                  <span class="audit-entry-title">Founder Working Capital Transfer</span>
+                  <span class="audit-entry-amount positive">+$35,000.00</span>
+                </div>
+                <div class="audit-entry-desc">
+                  Correctly categorized under Equity #3010 (Owner Investment). Saved founder from accidentally reporting
+                  this as $35,000 of taxable sales revenue!
+                </div>
+                <span class="audit-entry-tag tag-safe">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  $12,950 In Overpaid Taxes Prevented
+                </span>
+              </div>
+
+              <!-- CPA Sign-Off Seal -->
+              <div class="cpa-seal-card">
+                <div style="display: flex; align-items: center; gap: 0.65rem;">
+                  <div>
+                    <div
+                      style="width: 28px; height: 28px; border-radius: 50%; background: #c2785a; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 800;">
+                      SJ</div>
+                  </div>
+                  <div>
+                    <div style="font-size: 0.8rem; font-weight: 700; color: #0f172a;">Sarah Jenkins, Licensed CPA</div>
+                    <div style="font-size: 0.7rem; color: #64748b;">Assigned Lead Accountant &middot; Signed Oct Close
+                    </div>
+                  </div>
+                </div>
+                <span
+                  style="font-size: 0.725rem; font-weight: 700; color: #c2785a; background: #fdf2ec; border: 1px solid #e8c4b0; padding: 0.25rem 0.5rem; border-radius: 4px;">100%
+                  Audit-Ready</span>
+              </div>
+            </div>
+
+            <!-- Panel 2: Typical AI Tool Mode -->
+            <div id="panel-audit-ai" class="audit-ledger-panel" style="display: none;">
+              <div class="audit-entry-card ai-error">
+                <div class="audit-entry-top">
+                  <span class="audit-entry-title">Stripe Merchant Payout #8492</span>
+                  <span class="audit-entry-amount positive">+$48,290.00</span>
+                </div>
+                <div class="audit-entry-desc">
+                  AI algorithm dumped the net lump payout into "Uncategorized Income". Failed to record $1,448.70
+                  merchant fee as a tax write-off. Ledger is out of balance with bank feed!
+                </div>
+                <span class="audit-entry-tag tag-danger">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="15" y1="9" x2="9" y2="15" />
+                    <line x1="9" y1="9" x2="15" y2="15" />
+                  </svg>
+                  Lost Tax Write-Off &amp; Unbalanced Cash
+                </span>
+              </div>
+
+              <div class="audit-entry-card ai-error">
+                <div class="audit-entry-top">
+                  <span class="audit-entry-title">Bulk Inventory Production (Factory Wire)</span>
+                  <span class="audit-entry-amount negative">-$18,500.00</span>
+                </div>
+                <div class="audit-entry-desc">
+                  AI algorithm automatically marked wire as "Office Supplies / General Expense". Severe GAAP violation:
+                  claiming inventory as immediate expense will trigger IRS penalty.
+                </div>
+                <span class="audit-entry-tag tag-danger">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="15" y1="9" x2="9" y2="15" />
+                    <line x1="9" y1="9" x2="15" y2="15" />
+                  </svg>
+                  Severe IRS Audit Vulnerability
+                </span>
+              </div>
+
+              <div class="audit-entry-card ai-error">
+                <div class="audit-entry-top">
+                  <span class="audit-entry-title">Founder Working Capital Transfer</span>
+                  <span class="audit-entry-amount positive">+$35,000.00</span>
+                </div>
+                <div class="audit-entry-desc">
+                  AI algorithm labeled this incoming wire as "Sales Revenue". The company would pay ~37% in corporate
+                  tax on the founder's own personal money!
+                </div>
+                <span class="audit-entry-tag tag-danger">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="15" y1="9" x2="9" y2="15" />
+                    <line x1="9" y1="9" x2="15" y2="15" />
+                  </svg>
+                  $12,950 In False Tax Liability
+                </span>
+              </div>
+
+              <div
+                style="padding: 0.75rem 1rem; background: #fee2e2; border: 1px solid #fecaca; border-radius: var(--radius-md); font-size: 0.775rem; color: #991b1b; display: flex; align-items: center; justify-content: space-between;">
+                <span><strong>Risk Summary:</strong> 3 algorithmic errors would cost you $14,398 and trigger an IRS
+                  audit.</span>
+                <span style="font-weight: 700;">No Human Checked This</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trusted By / Working Interactive Logos Marquee Section -->
+    <section class="logos-section">
+      <div class="container logos-header-bar">
+        <div class="logos-title">Seamlessly integrated with your financial and commerce stack</div>
+        <a href="integrations.html" class="logos-hint" title="View all supported integrations">
+          <span>⚡ Click any integration below to inspect live sync parameters &amp; connect &rarr;</span>
+        </a>
+      </div>
+
+      <!-- Infinite Interactive Marquee Track -->
+      <div class="marquee-wrapper">
+        <div class="marquee-track">
+          <!-- Item 1: Stripe -->
+          <div class="partner-badge-card" onclick="openIntegrationById('stripe')" role="button" tabindex="0"
+            title="Click to inspect Stripe integration">
+            <div class="partner-logo-svg">
+              <svg viewBox="0 0 24 24" width="22" height="22">
+                <rect width="24" height="24" rx="6" fill="#635BFF" />
+                <path
+                  d="M12.9 8.2c0-.7-.6-1.1-1.5-1.1-1.3 0-2.4.5-3.3 1.1l-.8-2c1.1-.7 2.6-1.2 4.3-1.2 3.1 0 5 1.6 5 4.3 0 4.1-5.7 3.5-5.7 5.3 0 .8.7 1.2 1.7 1.2 1.5 0 2.8-.7 3.7-1.4l.8 2c-1.2.9-2.9 1.5-4.8 1.5-3.2 0-5.3-1.6-5.3-4.3.1-4.3 5.8-3.7 5.8-5.4z"
+                  fill="#FFFFFF" />
+              </svg>
+            </div>
+            <span class="partner-name">Stripe</span>
+            <span class="partner-status-tag"><span class="partner-status-dot"></span>Instant Webhook</span>
+          </div>
+
+          <!-- Item 2: Shopify -->
+          <div class="partner-badge-card" onclick="openIntegrationById('shopify')" role="button" tabindex="0"
+            title="Click to inspect Shopify integration">
+            <div class="partner-logo-svg">
+              <svg viewBox="0 0 24 24" width="22" height="22">
+                <rect width="24" height="24" rx="6" fill="#95BF47" />
+                <path
+                  d="M17.4 6.7c-.1-.3-.3-.4-.5-.4h-1.6c-.1-.7-.4-2.1-1.5-2.7-.4-.3-.9-.4-1.4-.4-.3 0-.6.1-.8.2-.5-.6-1.3-.9-2.1-.9-.2 0-.4 0-.6.1-.9.3-1.6 1.1-2 2.3l-1.3.4c-.4.1-.6.5-.5.9l1.6 12.1c.1.4.4.7.8.7h8.2c.4 0 .8-.3.8-.7l1.7-11.4c0-.1 0-.1 0-.2zM12.4 4.8c.6.3.8 1.2.9 1.6h-2.3c.3-1 .9-1.5 1.4-1.6zm-1.8 1.6H8.9c.3-.8.8-1.3 1.4-1.5.2.4.3 1 .3 1.5z"
+                  fill="#FFFFFF" />
+              </svg>
+            </div>
+            <span class="partner-name">Shopify</span>
+            <span class="partner-status-tag"><span class="partner-status-dot"></span>Hourly Orders</span>
+          </div>
+
+          <!-- Item 3: QuickBooks -->
+          <div class="partner-badge-card" onclick="openIntegrationById('qbo')" role="button" tabindex="0"
+            title="Click to inspect QuickBooks integration">
+            <div class="partner-logo-svg">
+              <svg viewBox="0 0 24 24" width="22" height="22">
+                <rect width="24" height="24" rx="6" fill="#2CA01C" />
+                <path
+                  d="M6 12a6 6 0 0 0 6 6v-2a4 4 0 0 1-4-4 4 4 0 0 1 4-4V6a6 6 0 0 0-6 6zm12 0a6 6 0 0 0-6-6v2a4 4 0 0 1 4 4 4 4 0 0 1-4 4v2a6 6 0 0 0 6-6z"
+                  fill="#FFFFFF" />
+              </svg>
+            </div>
+            <span class="partner-name">QuickBooks</span>
+            <span class="partner-status-tag"><span class="partner-status-dot"></span>2-Way Ledger</span>
+          </div>
+
+          <!-- Item 4: Xero -->
+          <div class="partner-badge-card" onclick="openIntegrationById('xero')" role="button" tabindex="0"
+            title="Click to inspect Xero integration">
+            <div class="partner-logo-svg">
+              <svg viewBox="0 0 24 24" width="22" height="22">
+                <circle cx="12" cy="12" r="11" fill="#13B5EA" />
+                <path d="M7.5 7.5l9 9m0-9l-9 9" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+              </svg>
+            </div>
+            <span class="partner-name">Xero</span>
+            <span class="partner-status-tag"><span class="partner-status-dot"></span>Gold Partner</span>
+          </div>
+
+          <!-- Item 5: Mercury -->
+          <div class="partner-badge-card" onclick="openIntegrationById('mercury')" role="button" tabindex="0"
+            title="Click to inspect Mercury integration">
+            <div class="partner-logo-svg">
+              <svg viewBox="0 0 24 24" width="22" height="22">
+                <rect width="24" height="24" rx="6" fill="#101828" />
+                <path
+                  d="M5 8.5C5 7.1 6.1 6 7.5 6h9C17.9 6 19 7.1 19 8.5v7c0 1.4-1.1 2.5-2.5 2.5h-9C6.1 18 5 16.9 5 15.5v-7zm2.5-.5a1 1 0 0 0-1 1v1h11V9a1 1 0 0 0-1-1h-9zm10 4H6.5v3.5a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1V12z"
+                  fill="#38BDF8" />
+              </svg>
+            </div>
+            <span class="partner-name">Mercury</span>
+            <span class="partner-status-tag"><span class="partner-status-dot"></span>Direct API</span>
+          </div>
+
+          <!-- Item 6: Gusto -->
+          <div class="partner-badge-card" onclick="openIntegrationById('gusto')" role="button" tabindex="0"
+            title="Click to inspect Gusto integration">
+            <div class="partner-logo-svg">
+              <svg viewBox="0 0 24 24" width="22" height="22">
+                <rect width="24" height="24" rx="6" fill="#F45D48" />
+                <path
+                  d="M12 5.5l5 2.5v4.5c0 3.5-2.3 6.6-5 7.5-2.7-.9-5-4-5-7.5V8l5-2.5zm0 2.2L9 9.2v3.3c0 2.4 1.5 4.6 3 5.3 1.5-.7 3-2.9 3-5.3V9.2l-3-1.5z"
+                  fill="#FFFFFF" />
+              </svg>
+            </div>
+            <span class="partner-name">Gusto</span>
+            <span class="partner-status-tag"><span class="partner-status-dot"></span>Payroll &amp; HR</span>
+          </div>
+
+          <!-- Item 7: Plaid -->
+          <div class="partner-badge-card" onclick="openIntegrationById('plaid')" role="button" tabindex="0"
+            title="Click to inspect Plaid integration">
+            <div class="partner-logo-svg">
+              <svg viewBox="0 0 24 24" width="22" height="22">
+                <rect width="24" height="24" rx="6" fill="#000000" />
+                <path d="M6 6h4v4H6V6zm8 0h4v4h-4V6zm-8 8h4v4H6v-4zm8 0h4v4h-4v-4z" fill="#FFFFFF" />
+              </svg>
+            </div>
+            <span class="partner-name">Plaid</span>
+            <span class="partner-status-tag"><span class="partner-status-dot"></span>12,000+ Banks</span>
+          </div>
+
+          <!-- Item 8: Brex -->
+          <div class="partner-badge-card" onclick="openIntegrationById('brex')" role="button" tabindex="0"
+            title="Click to inspect Brex integration">
+            <div class="partner-logo-svg">
+              <svg viewBox="0 0 24 24" width="22" height="22">
+                <rect width="24" height="24" rx="6" fill="#F16548" />
+                <text x="12" y="16" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900"
+                  font-size="12" text-anchor="middle">B</text>
+              </svg>
+            </div>
+            <span class="partner-name">Brex</span>
+            <span class="partner-status-tag"><span class="partner-status-dot"></span>Corporate Card</span>
+          </div>
+
+          <!-- Item 9: Ramp -->
+          <div class="partner-badge-card" onclick="openIntegrationById('ramp')" role="button" tabindex="0"
+            title="Click to inspect Ramp integration">
+            <div class="partner-logo-svg">
+              <svg viewBox="0 0 24 24" width="22" height="22">
+                <rect width="24" height="24" rx="6" fill="#161616" />
+                <path d="M7 15l5-6 5 6" stroke="#D1E838" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round" fill="none" />
+              </svg>
+            </div>
+            <span class="partner-name">Ramp</span>
+            <span class="partner-status-tag"><span class="partner-status-dot"></span>Auto Receipts</span>
+          </div>
+          <!-- Duplicate items omitted for brevity -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Why ZEEYES Books? (Value Pillars) -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">The ZEEYES Advantage</span>
+          <h2 class="section-title">Built for Modern Businesses That Hate Accounting Headaches</h2>
+          <p class="section-subtitle">
+            Traditional bookkeeping firms are slow and charge unpredictable hourly rates, while generic AI apps make
+            costly tax errors. ZEEYES Books gives you personal CPA attention, transparent pricing, and zero month-end
+            stress.
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+          <!-- Pillar 1 -->
+          <div class="card feature-card">
+            <div class="feature-icon-wrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+              </svg>
+            </div>
+            <h3>Dedicated Lead CPA Team</h3>
+            <p>You are never handed off to an anonymous call center or unmonitored chatbot. You get a named
+              US-credentialed CPA who knows your business, industry nuances, and goals inside out.</p>
+            <a href="about.html" class="feature-link">Meet our experts &rarr;</a>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="card feature-card">
+            <div class="feature-icon-wrapper emerald">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="5" width="20" height="14" rx="2" />
+                <line x1="2" y1="10" x2="22" y2="10" />
+              </svg>
+            </div>
+            <h3>Handcrafted Reconciliation Workflows</h3>
+            <p>We connect directly to your banks, payment gateways, and payroll platforms, manually matching each
+              settlement batch and fee to guarantee your balance sheet ties to the penny.</p>
+            <a href="integrations.html" class="feature-link">View all integrations &rarr;</a>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="card feature-card">
+            <div class="feature-icon-wrapper warning">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+            </div>
+            <h3>100% Tax-Ready &amp; Audit-Proof</h3>
+            <p>Every expense is reviewed with human discernment to maximize legitimate deductions and IRS compliance.
+              When tax time arrives, your returns are prepared and filed by your accountant.</p>
+            <a href="services.html" class="feature-link">Explore tax services &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Direct Comparison Section -->
+    <section class="section section-subtle">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Direct Comparison</span>
+          <h2 class="section-title">Why Serious Founders Reject AI Bookkeeping</h2>
+          <p class="section-subtitle">
+            Automated bots sound convenient in pitch decks, but in practice they misclassify payroll taxes, botch
+            multi-state sales tax, and hallucinate expense write-offs. Here is how ZEEYES protects your business.
+          </p>
+        </div>
+
+        <div class="comparison-grid">
+          <!-- AI Bookkeeping Software Column -->
+          <div class="comparison-box ai-box">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+              <h3 style="font-family: var(--font-display); font-size: 1.4rem; font-weight: 800; color: #991b1b;">
+                Generic "AI" Accounting Bots
+              </h3>
+              <span
+                style="font-size: 0.75rem; font-weight: 700; background: #fee2e2; color: #b91c1c; padding: 0.2rem 0.5rem; border-radius: 4px;">
+                High Audit Risk
+              </span>
+            </div>
+            <p style="font-size: 0.875rem; color: #64748b; line-height: 1.5;">
+              Algorithms guess expense categories based on merchant strings with zero business context or human common
+              sense.
+            </p>
+            <div class="comparison-list">
+              <div class="comparison-item">
+                <div class="comparison-icon cross">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                  </svg>
+                </div>
+                <div>
+                  <strong>Dumps Unmatched Transactions Into Mystery Buckets:</strong>
+                  Leaves huge "Ask My Accountant" buckets that you must spend your own weekends untangling before tax
+                  season.
+                </div>
+              </div>
+              <div class="comparison-item">
+                <div class="comparison-icon cross">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                  </svg>
+                </div>
+                <div>
+                  <strong>Misses State Sales Tax Nexus:</strong>
+                  Fails to track economic nexus thresholds across states, exposing your company to retroactive state tax
+                  penalties.
+                </div>
+              </div>
+              <div class="comparison-item">
+                <div class="comparison-icon cross">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                  </svg>
+                </div>
+                <div>
+                  <strong>No Human Support When the IRS Audits:</strong>
+                  You get an automated chatbot link to FAQ documentation when an IRS tax inquiry or audit notice
+                  arrives.
+                </div>
+              </div>
+              <div class="comparison-item">
+                <div class="comparison-icon cross">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                  </svg>
+                </div>
+                <div>
+                  <strong>Founder Wastes 10+ Hours Monthly:</strong>
+                  Founders report spending 10 to 15 hours every month fixing algorithm misclassifications and finding
+                  lost invoices.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ZEEYES Human Standard Column -->
+          <div class="comparison-box human-box">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+              <h3 style="font-family: var(--font-display); font-size: 1.4rem; font-weight: 800; color: #a8604a;">
+                The ZEEYES Human CPA Standard
+              </h3>
+              <span
+                style="font-size: 0.75rem; font-weight: 700; background: #fdf2ec; color: #a8604a; padding: 0.2rem 0.5rem; border-radius: 4px;">
+                Zero Guesswork
+              </span>
+            </div>
+            <p style="font-size: 0.875rem; color: #64748b; line-height: 1.5;">
+              Every single line item is audited by your dedicated, named US CPA who knows your business model inside
+              out.
+            </p>
+            <div class="comparison-list">
+              <div class="comparison-item">
+                <div class="comparison-icon check">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <div>
+                  <strong>Meticulous By-Hand General Ledger Audits:</strong>
+                  Every deposit, withdrawal, and processor fee is verified against bank statements with zero mystery
+                  buckets.
+                </div>
+              </div>
+              <div class="comparison-item">
+                <div class="comparison-icon check">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <div>
+                  <strong>Multi-State Compliance &amp; Nexus Monitoring:</strong>
+                  We track your sales volume state-by-state, file registrations, and prepare returns before deadlines.
+                </div>
+              </div>
+              <div class="comparison-item">
+                <div class="comparison-icon check">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <div>
+                  <strong>Direct CPA Representation &amp; Defense:</strong>
+                  Your named CPA signs your corporate returns, responds to IRS inquiries, and stands behind your books.
+                </div>
+              </div>
+              <div class="comparison-item">
+                <div class="comparison-icon check">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <div>
+                  <strong>True Peace of Mind for Founders:</strong>
+                  Reclaim your weekends. Books are closed by the 5th business day with a 5-minute video walkthrough.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Financial Health & ROI Savings Calculator -->
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag tag-emerald">Interactive ROI Calculator</span>
+          <h2 class="section-title">See Exactly How Much Time &amp; Money You Will Save</h2>
+          <p class="section-subtitle">
+            Adjust your monthly expenses and transaction volume to calculate hours reclaimed and missed tax deductions
+            discovered.
+          </p>
+        </div>
+        <div class="calculator-card">
+          <!-- Calculator Inputs -->
+          <div class="calc-inputs">
+            <div class="calc-input-group">
+              <label for="calc-expenses">
+                <span>Monthly Business Expenses:</span>
+                <span id="calc-expenses-val" class="calc-val-badge">$45,000</span>
+              </label>
+              <input type="range" id="calc-expenses" class="range-slider" min="5000" max="250000" step="2500"
+                value="45000">
+              <div
+                style="display: flex; justify-content: space-between; font-size: 0.75rem; color: #64748b; margin-top: 0.4rem;">
+                <span>$5k/mo</span>
+                <span>$100k/mo</span>
+                <span>$250k+/mo</span>
+              </div>
+            </div>
+
+            <div class="calc-input-group">
+              <label for="calc-invoices">
+                <span>Monthly Invoices &amp; Transactions:</span>
+                <span id="calc-invoices-val" class="calc-val-badge">240 txs</span>
+              </label>
+              <input type="range" id="calc-invoices" class="range-slider" min="20" max="1500" step="20" value="240">
+              <div
+                style="display: flex; justify-content: space-between; font-size: 0.75rem; color: #64748b; margin-top: 0.4rem;">
+                <span>20 txs</span>
+                <span>500 txs</span>
+                <span>1,500+ txs</span>
+              </div>
+            </div>
+
+            <div class="calc-input-group">
+              <label for="calc-industry">
+                <span>Your Primary Industry:</span>
+              </label>
+              <select id="calc-industry" class="form-control"
+                style="background: #1e293b; color: #ffffff; border-color: #334155;">
+                <option value="saas">SaaS, Technology &amp; AI</option>
+                <option value="ecommerce">E-Commerce &amp; Retail (Shopify / Amazon)</option>
+                <option value="agency">Marketing, Design &amp; Digital Agency</option>
+                <option value="services">Professional Services &amp; Consulting</option>
+                <option value="healthcare">Healthcare &amp; Private Practice</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Calculator Results -->
+          <div class="calc-results">
+            <div class="calc-result-metric">
+              <div class="calc-metric-label">Founder Hours Saved Every Month</div>
+              <div id="calc-result-hours" class="calc-metric-val">15 hrs/mo</div>
+              <div style="font-size: 0.8rem; color: #94a3b8;">No more reconciling bank statements late on Sundays.</div>
+            </div>
+
+            <div class="calc-result-metric">
+              <div class="calc-metric-label">Estimated Tax Deductions Recovered</div>
+              <div id="calc-result-tax" class="calc-metric-val highlight">$28,080/yr</div>
+              <div style="font-size: 0.8rem; color: #94a3b8;">Based on write-offs commonly missed by uncertified
+                bookkeepers.</div>
+            </div>
+
+            <div class="calc-result-metric"
+              style="padding-top: 1.25rem; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+              <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                <div>
+                  <div class="calc-metric-label">Recommended Plan:</div>
+                  <div id="calc-result-plan" style="font-weight: 700; color: #38bdf8; font-size: 1.1rem;">Growth
+                    ($449/mo)</div>
+                </div>
+                <div style="text-align: right;">
+                  <div class="calc-metric-label">Calculated ROI:</div>
+                  <div id="calc-result-roi"
+                    style="font-family: var(--font-display); font-size: 1.4rem; font-weight: 800; color: #d4886a;">7.7x
+                    ROI</div>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: 1.5rem;">
+              <button class="btn btn-primary btn-block" data-modal-target="consultation-modal">Get Started With This
+                Plan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Overview Grid -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Full-Spectrum Accounting</span>
+          <h2 class="section-title">Everything Your Business Needs From Pre-Seed to Exit</h2>
+          <p class="section-subtitle">
+            Whether you need monthly bank reconciliations, catch-up bookkeeping for past tax years, or fractional CFO
+            cash forecasts, ZEEyes Books has you covered.
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+          <!-- Service 1 -->
+          <div class="card">
+            <h3 style="font-family: var(--font-display); font-size: 1.3rem; margin-bottom: 0.75rem;">Full-Charge
+              Bookkeeping</h3>
+            <p style="color: var(--text-muted); font-size: 0.925rem; margin-bottom: 1.25rem;">
+              Accrual or cash-basis monthly books. Every transaction, wire, credit card charge, and merchant fee is
+              reconciled with precision.
+            </p>
+            <ul style="display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.875rem; margin-bottom: 1.5rem;">
+              <li style="display: flex; gap: 0.5rem;"><span style="color: var(--color-accent);">✓</span> Monthly
+                P&amp;L, Balance Sheet &amp; Cash Flow</li>
+              <li style="display: flex; gap: 0.5rem;"><span style="color: var(--color-accent);">✓</span> Multi-bank
+                &amp; credit card reconciliation</li>
+              <li style="display: flex; gap: 0.5rem;"><span style="color: var(--color-accent);">✓</span> 48-hour
+                month-end close guarantee</li>
+            </ul>
+            <a href="services.html#bookkeeping" style="font-weight: 600; color: var(--color-primary);">Learn more
+              &rarr;</a>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="card">
+            <h3 style="font-family: var(--font-display); font-size: 1.3rem; margin-bottom: 0.75rem;">Corporate Tax &amp;
+              Filing</h3>
+            <p style="color: var(--text-muted); font-size: 0.925rem; margin-bottom: 1.25rem;">
+              Stress-free business tax filing by certified CPAs and IRS Enrolled Agents. Never worry about missed
+              deadlines or penalties.
+            </p>
+            <ul style="display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.875rem; margin-bottom: 1.5rem;">
+              <li style="display: flex; gap: 0.5rem;"><span style="color: var(--color-accent);">✓</span> Federal &amp;
+                State Returns (1120, 1120-S, 1065)</li>
+              <li style="display: flex; gap: 0.5rem;"><span style="color: var(--color-accent);">✓</span> R&amp;D Tax
+                Credit studies &amp; filings</li>
+              <li style="display: flex; gap: 0.5rem;"><span style="color: var(--color-accent);">✓</span> 1099-NEC vendor
+                reporting &amp; filing</li>
+            </ul>
+            <a href="services.html#tax" style="font-weight: 600; color: var(--color-primary);">Learn more &rarr;</a>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="card">
+            <h3 style="font-family: var(--font-display); font-size: 1.3rem; margin-bottom: 0.75rem;">Fractional CFO
+              Advisory</h3>
+            <p style="color: var(--text-muted); font-size: 0.925rem; margin-bottom: 1.25rem;">
+              Strategic financial leadership without the $300k executive salary. Cash runway modeling, unit economics,
+              and board deck preparation.
+            </p>
+            <ul style="display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.875rem; margin-bottom: 1.5rem;">
+              <li style="display: flex; gap: 0.5rem;"><span style="color: var(--color-accent);">✓</span> 12-Month
+                Rolling Cash Runway Forecasts</li>
+              <li style="display: flex; gap: 0.5rem;"><span style="color: var(--color-accent);">✓</span> Unit Economics
+                &amp; CAC/LTV Analysis</li>
+              <li style="display: flex; gap: 0.5rem;"><span style="color: var(--color-accent);">✓</span> Investor Board
+                Reporting Packages</li>
+            </ul>
+            <a href="services.html#cfo" style="font-weight: 600; color: var(--color-primary);">Learn more &rarr;</a>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="services.html" class="btn btn-outline btn-lg">View All 6 Core Services &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Snapshot Section with Interactive Switcher -->
+    <section class="section section-subtle">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Simple &amp; Transparent</span>
+          <h2 class="section-title">Clear Pricing That Scales With Your Growth</h2>
+          <p class="section-subtitle">No hidden fees, no hourly surprises, and no long-term lock-in. Switch or cancel
+            anytime.</p>
+        </div>
+
+        <!-- Billing Switcher Toggle -->
+        <div class="billing-switcher">
+          <span id="label-monthly" class="billing-label active">Monthly Billing</span>
+          <div id="billing-toggle" class="switch-toggle" role="button" aria-label="Toggle annual billing discount">
+            <div class="switch-handle"></div>
+          </div>
+          <span id="label-annual" class="billing-label">Annual Billing</span>
+          <span class="save-badge">Save 20% + Free Tax Setup</span>
+        </div>
+
+        <!-- Pricing Cards -->
+        <div class="pricing-grid">
+          <!-- Starter Plan -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3 class="plan-name">Starter</h3>
+              <p class="plan-desc">For solopreneurs, bootstrappers, and early startups up to $25k monthly expenses.</p>
+            </div>
+            <div class="plan-price-box">
+              <span class="currency">$</span>
+              <span class="price-amount" data-monthly-price="199" data-annual-price="159">199</span>
+              <span class="price-period">/ month</span>
+            </div>
+            <div class="pricing-features">
+              <div class="pricing-feature-item">
+                <span class="feature-check">✓</span>
+                <span>Monthly cash-basis bookkeeping</span>
+              </div>
+              <div class="pricing-feature-item">
+                <span class="feature-check">✓</span>
+                <span>Up to 2 bank &amp; credit card accounts</span>
+              </div>
+              <div class="pricing-feature-item">
+                <span class="feature-check">✓</span>
+                <span>Standard monthly P&amp;L &amp; Balance Sheet</span>
+              </div>
+              <div class="pricing-feature-item">
+                <span class="feature-check">✓</span>
+                <span>Dedicated Bookkeeper email support</span>
+              </div>
+            </div>
+            <button class="btn btn-outline btn-block" data-modal-target="consultation-modal">Get Started</button>
+          </div>
+
+          <!-- Growth Plan (Popular) -->
+          <div class="pricing-card popular">
+            <div class="popular-badge">Most Popular Choice</div>
+            <div class="pricing-header">
+              <h3 class="plan-name">Growth</h3>
+              <p class="plan-desc">For rapidly scaling startups, agencies, and e-commerce brands up to $80k expenses.
+              </p>
+            </div>
+            <div class="plan-price-box">
+              <span class="currency">$</span>
+              <span class="price-amount" data-monthly-price="449" data-annual-price="359">449</span>
+              <span class="price-period">/ month</span>
+            </div>
+            <div class="pricing-features">
+              <div class="pricing-feature-item">
+                <span class="feature-check">✓</span>
+                <span><strong>Accrual or Cash basis</strong> bookkeeping</span>
+              </div>
+              <div class="pricing-feature-item">
+                <span class="feature-check">✓</span>
+                <span>Up to 6 bank, credit card &amp; payment feeds</span>
+              </div>
+              <div class="pricing-feature-item">
+                <span class="feature-check">✓</span>
+                <span>Stripe, Shopify &amp; Payroll auto-sync</span>
+              </div>
+              <div class="pricing-feature-item">
+                <span class="feature-check">✓</span>
+                <span>Dedicated Lead CPA &amp; direct chat access</span>
+              </div>
+              <div class="pricing-feature-item">
+                <span class="feature-check">✓</span>
+                <span>48-hour month-end close guarantee</span>
+              </div>
+            </div>
+            <button class="btn btn-primary btn-block" data-modal-target="consultation-modal">Start 30-Day Free
+              Trial</button>
+          </div>
+
+          <!-- Scale Plan -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3 class="plan-name">Scale</h3>
+              <p class="plan-desc">For multi-entity businesses, inventory management, and venture-backed operations.</p>
+            </div>
+            <div class="plan-price-box">
+              <span class="currency">$</span>
+              <span class="price-amount" data-monthly-price="799" data-annual-price="639">799</span>
+              <span class="price-period">/ month</span>
+            </div>
+            <div class="pricing-features">
+              <div class="pricing-feature-item">
+                <span class="feature-check">✓</span>
+                <span>Everything in Growth tier</span>
+              </div>
+              <div class="pricing-feature-item">
+                <span class="feature-check">✓</span>
+                <span>Unlimited accounts &amp; foreign currencies</span>
+              </div>
+              <div class="pricing-feature-item">
+                <span class="feature-check">✓</span>
+                <span>Quarterly Fractional CFO strategy call</span>
+              </div>
+              <div class="pricing-feature-item">
+                <span class="feature-check">✓</span>
+                <span>Inventory COGS &amp; Multi-State Sales Tax</span>
+              </div>
+              <div class="pricing-feature-item">
+                <span class="feature-check">✓</span>
+                <span>Priority Slack &amp; Phone VIP access</span>
+              </div>
+            </div>
+            <button class="btn btn-outline btn-block" data-modal-target="consultation-modal">Contact Sales</button>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="pricing.html" style="font-weight: 700; color: var(--color-primary); font-size: 1.05rem;">
+            Need custom enterprise or catch-up bookkeeping? See the Full Pricing Breakdown &rarr;
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Customer Stories</span>
+          <h2 class="section-title">Loved by Over 1,200+ Founders &amp; Business Owners</h2>
+          <p class="section-subtitle">Read how growing companies reclaimed their weekends and optimized taxes with
+            ZEEyes Books.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+          <!-- Testimonial 1 -->
+          <div class="card" style="display: flex; flex-direction: column;">
+            <div style="color: #f59e0b; margin-bottom: 1rem; font-size: 1.1rem;">★★★★★</div>
+            <blockquote
+              style="font-size: 0.95rem; line-height: 1.6; color: var(--text-main); margin-bottom: 1.5rem; flex-grow: 1;">
+              "Switching from our old-school local accountant to ZEEyes Books was night and day. Sarah, our assigned
+              CPA, found $18,400 in overlooked software and R&amp;D deductions in our first month alone."
+            </blockquote>
+            <div
+              style="display: flex; align-items: center; gap: 0.75rem; border-top: 1px solid var(--border-light); padding-top: 1rem;">
+              <div
+                style="width: 44px; height: 44px; border-radius: 50%; background: #e0f2fe; color: #0284c7; display: flex; align-items: center; justify-content: center; font-weight: 700;">
+                MK</div>
+              <div>
+                <div style="font-weight: 700; font-size: 0.925rem;">Marcus Kim</div>
+                <div style="font-size: 0.775rem; color: var(--text-muted);">Co-Founder &amp; CEO, HyperScale AI</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="card" style="display: flex; flex-direction: column;">
+            <div style="color: #f59e0b; margin-bottom: 1rem; font-size: 1.1rem;">★★★★★</div>
+            <blockquote
+              style="font-size: 0.95rem; line-height: 1.6; color: var(--text-main); margin-bottom: 1.5rem; flex-grow: 1;">
+              "As an 8-figure Shopify brand with inventory in 3 warehouses, Amazon settlement files were our worst
+              nightmare. ZEEyes Books automated the whole mess. Our books close within 48 hours of month-end."
+            </blockquote>
+            <div
+              style="display: flex; align-items: center; gap: 0.75rem; border-top: 1px solid var(--border-light); padding-top: 1rem;">
+              <div
+                style="width: 44px; height: 44px; border-radius: 50%; background: #dcfce7; color: #15803d; display: flex; align-items: center; justify-content: center; font-weight: 700;">
+                EL</div>
+              <div>
+                <div style="font-weight: 700; font-size: 0.925rem;">Elena Vance</div>
+                <div style="font-size: 0.775rem; color: var(--text-muted);">Founder, Luminara Goods</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="card" style="display: flex; flex-direction: column;">
+            <div style="color: #f59e0b; margin-bottom: 1rem; font-size: 1.1rem;">★★★★★</div>
+            <blockquote
+              style="font-size: 0.95rem; line-height: 1.6; color: var(--text-main); margin-bottom: 1.5rem; flex-grow: 1;">
+              "During our Series A due diligence, the VCs' audit team praised how clean, GAAP-compliant, and
+              well-structured our cohort financials and balance sheets were. ZEEyes Books made fundraising painless."
+            </blockquote>
+            <div
+              style="display: flex; align-items: center; gap: 0.75rem; border-top: 1px solid var(--border-light); padding-top: 1rem;">
+              <div
+                style="width: 44px; height: 44px; border-radius: 50%; background: #ede9fe; color: #7c3aed; display: flex; align-items: center; justify-content: center; font-weight: 700;">
+                DR</div>
+              <div>
+                <div style="font-weight: 700; font-size: 0.925rem;">David Rodriguez</div>
+                <div style="font-size: 0.775rem; color: var(--text-muted);">COO, FleetSync Technologies</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion Section -->
+    <section class="section section-subtle">
+      <div class="container container-narrow">
+        <div class="section-header">
+          <span class="section-tag">Frequently Asked Questions</span>
+          <h2 class="section-title">Everything You Need to Know</h2>
+          <p class="section-subtitle">Have questions about how ZEEyes Books works? Here are direct answers to our most
+            common questions.</p>
+        </div>
+
+        <div class="faq-list">
+          <!-- FAQ 1 -->
+          <div class="faq-item active">
+            <button class="faq-question">
+              <span>How is ZEEyes Books different from standard bookkeeping software?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              Software like QuickBooks or Xero is just a DIY tool—you still have to spend 15 to 20 hours a month doing
+              the manual categorizations, reconciliations, and tax calculations yourself. ZEEyes Books is an end-to-end
+              full service: we provide the software AND a dedicated team of CPAs who do the work for you.
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Can you handle catch-up bookkeeping if my books are behind?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              Yes, absolutely! Whether you are 3 months or 3 years behind, our specialized Historical Cleanup team can
+              reconstruct your ledgers, reconcile past transactions, file back taxes, and get you current in as fast as
+              10 business days.
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Do I have to switch away from my existing bank or credit card?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              Never. ZEEyes Books connects seamlessly via read-only 256-bit encrypted API tokens to over 12,000
+              financial institutions, including Chase, Bank of America, Mercury, Brex, Silicon Valley Bank, Wells Fargo,
+              Stripe, and PayPal.
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Are your bookkeepers certified CPAs?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              Every client at ZEEyes Books is assigned a dedicated Lead Certified Public Accountant (CPA) or IRS
+              Enrolled Agent (EA) supported by senior financial analysts. All work is peer-reviewed under strict GAAP
+              compliance.
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What is your cancellation and refund policy?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              All monthly plans are month-to-month with no contracts. You can cancel at any time with zero penalty. We
+              also offer a 30-day 100% money-back guarantee if you are not fully satisfied with your first monthly
+              close.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pre-Footer Call to Action Banner -->
+    <section class="section section-dark" style="text-align: center;">
+      <div class="container container-narrow">
+        <h2 class="section-title" style="font-size: 2.75rem;">Ready to Put Your Accounting on Autopilot?</h2>
+        <p class="section-subtitle" style="margin-bottom: 2.5rem;">
+          Join over 1,200 founders who trust ZEEyes Books with their financial foundation. Schedule your free 15-minute
+          consultation today.
+        </p>
+        <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+          <button class="btn btn-primary btn-lg" data-modal-target="consultation-modal">Book Your Free
+            Consultation</button>
+          <a href="login.html" class="btn btn-outline-white btn-lg">Test Drive Client Portal Demo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <!-- Brand Info -->
+        <div class="footer-brand">
+          <img src="assets/images/logo-white.svg" alt="ZEEyes Books" width="165" height="38">
+          <p>
+            The premier cloud bookkeeping, tax compliance, and fractional CFO partner for ambitious startups and growing
+            enterprises.
+          </p>
+          <div class="footer-badge-list">
+            <span class="footer-badge">🔒 SOC2 Type II Certified</span>
+            <span class="footer-badge">🛡️ 256-Bit Bank Encryption</span>
+            <span class="footer-badge">⭐ GAAP Compliant</span>
+          </div>
+        </div>
+
+        <!-- Navigation Columns -->
+        <div>
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-nav-list">
+            <li><a href="services.html#bookkeeping">Monthly Bookkeeping</a></li>
+            <li><a href="services.html#tax">Corporate Tax &amp; 1099s</a></li>
+            <li><a href="services.html#cfo">Fractional CFO Advisory</a></li>
+            <li><a href="services.html#catchup">Catch-Up Bookkeeping</a></li>
+            <li><a href="services.html#payroll">Payroll &amp; HR Sync</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Company</h4>
+          <ul class="footer-nav-list">
+            <li><a href="about.html">About ZEEyes</a></li>
+            <li><a href="pricing.html">Pricing Plans</a></li>
+            <li><a href="integrations.html">Integrations Hub</a></li>
+            <li><a href="about.html#team">Leadership &amp; CPAs</a></li>
+            <li><a href="about.html#security">Security &amp; Privacy</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Resources</h4>
+          <ul class="footer-nav-list">
+            <li><a href="resources.html">Knowledge Hub</a></li>
+            <li><a href="resources.html#calculator">Cash Runway Calculator</a></li>
+            <li><a href="resources.html#guides">Tax Deduction Checklist</a></li>
+            <li><a href="resources.html#templates">Free Financial Models</a></li>
+            <li><a href="login.html">Client Portal Login</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Subscription -->
+        <div class="footer-newsletter">
+          <h4 class="footer-heading">Financial Insights</h4>
+          <p>Get our weekly 3-minute digest on startup tax hacks, cash runway optimization, and CFO strategies.</p>
+          <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="you@company.com" required
+              aria-label="Business Email Address">
+            <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+          </form>
+          <span style="font-size: 0.75rem; color: #64748b;">No spam ever. Unsubscribe with 1-click.</span>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div class="system-status">
+          <span class="status-dot"></span>
+          <span>All systems operational &middot; Bank Feeds Active</span>
+        </div>
+        <div>
+          &copy; 2026 ZEEyes Books Inc. All rights reserved. &middot; Privacy Policy &middot; Terms of Service
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+          <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+          <a href="#" class="social-link" aria-label="GitHub">💻</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Book Free Consultation Modal -->
+  <div id="consultation-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 id="modal-title">Schedule Your Free Consultation</h3>
+        <button class="modal-close-btn" data-modal-close aria-label="Close dialog">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.5rem;">
+          Speak 1-on-1 with a senior CPA to review your books, identify missed deductions, and choose the right plan.
+        </p>
+        <form id="consultation-form"
+          onsubmit="event.preventDefault(); window.showToast('Consultation booked! Check your inbox for the calendar invite.', 'success'); document.getElementById('consultation-modal').classList.remove('open'); document.body.style.overflow = '';">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="c-first-name">First Name *</label>
+              <input type="text" id="c-first-name" class="form-control" required placeholder="Alex">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="c-last-name">Last Name *</label>
+              <input type="text" id="c-last-name" class="form-control" required placeholder="Rivers">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="c-email">Work Email *</label>
+            <input type="email" id="c-email" class="form-control" required placeholder="alex@company.com">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="c-company">Company Name</label>
+              <input type="text" id="c-company" class="form-control" placeholder="Acme Tech Inc.">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="c-expenses">Monthly Spend</label>
+              <select id="c-expenses" class="form-control">
+                <option value="under20k">Under $25k / mo</option>
+                <option value="20k-75k">$25k - $75k / mo</option>
+                <option value="75k-200k">$75k - $200k / mo</option>
+                <option value="over200k">$200k+ / mo</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="c-notes">What are you looking for help with?</label>
+            <textarea id="c-notes" class="form-control" rows="2"
+              placeholder="e.g. Monthly bookkeeping, catch-up for 2025, R&amp;D tax credits..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block btn-lg" style="margin-top: 1rem;">Confirm
+            Consultation</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/main.js"></script>
+  <script src="js/calculators.js"></script>
+</body>
+
+</html>

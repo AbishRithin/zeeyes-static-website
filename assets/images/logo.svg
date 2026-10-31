@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 50" fill="none">
+  <defs>
+    <!-- Korean Tech Sandalwood Gradient - Upper Blade -->
+    <linearGradient id="kz-top" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE1D4" />
+      <stop offset="50%" stop-color="#EAA685" />
+      <stop offset="100%" stop-color="#C17A56" />
+    </linearGradient>
+
+    <!-- Korean Tech Sandalwood Gradient - Lower Blade -->
+    <linearGradient id="kz-bot" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#8F4628" />
+      <stop offset="50%" stop-color="#AA6543" />
+      <stop offset="100%" stop-color="#C17A56" />
+    </linearGradient>
+
+    <!-- Deep Obsidian Korean Tech Squircle -->
+    <linearGradient id="kz-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#162238" />
+      <stop offset="100%" stop-color="#0B1120" />
+    </linearGradient>
+
+    <!-- Core Aperture Glow -->
+    <radialGradient id="kz-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#FCE1D4" />
+      <stop offset="100%" stop-color="#C17A56" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Modern Korean Minimalist Squircle Icon -->
+  <g transform="translate(4, 5)">
+    <!-- Base Squircle with Smooth Curvature -->
+    <rect width="40" height="40" rx="12" fill="url(#kz-bg)" />
+    <!-- Ultra-Thin Metallic Sandalwood Rim -->
+    <rect x="0.6" y="0.6" width="38.8" height="38.8" rx="11.4" stroke="#C17A56" stroke-opacity="0.4" stroke-width="1.2" />
+
+    <!-- Upper Dynamic Wing of 'Z' -->
+    <path d="M 11.5 13.5 L 28.5 13.5 L 18.5 23.5" fill="none" stroke="url(#kz-top)" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Lower Dynamic Wing of 'Z' -->
+    <path d="M 28.5 26.5 L 11.5 26.5 L 21.5 16.5" fill="none" stroke="url(#kz-bot)" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Central Precision Aperture Glow (ZEEYES Focus Vision) -->
+    <circle cx="20" cy="20" r="4" fill="url(#kz-glow)" opacity="0.6" />
+    <circle cx="20" cy="20" r="1.8" fill="#FFFFFF" />
+  </g>
+
+  <!-- Korean-Style Minimalist Tech Wordmark -->
+  <g transform="translate(54, 0)">
+    <!-- Primary Brand Name: ZEEYES with Sandalwood Dot -->
+    <text x="0" y="27" font-family="'Plus Jakarta Sans', 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif" font-size="20.5" font-weight="800" fill="#0F172A" letter-spacing="-0.3">ZEEYES</text>
+    <circle cx="81.5" cy="22.5" r="3" fill="#C17A56" />
+
+    <!-- Subtitle: Clean Spaced "BOOKS" + Korean Micro Pill -->
+    <text x="0.5" y="41.5" font-family="'Plus Jakarta Sans', 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif" font-size="9.5" font-weight="700" fill="#64748B" letter-spacing="3.2">BOOKS</text>
+    
+    <!-- Korean Aesthetic Micro Tag [북스] (Books) -->
+    <rect x="54" y="32.5" width="25" height="11.5" rx="3.5" fill="#FDF2EC" stroke="#F1D5C7" stroke-width="0.8" />
+    <text x="66.5" y="41" font-family="'Pretendard', 'Noto Sans KR', -apple-system, sans-serif" font-size="7.5" font-weight="700" fill="#C17A56" text-anchor="middle">북스</text>
+  </g>
+</svg>
