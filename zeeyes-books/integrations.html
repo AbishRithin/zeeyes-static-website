@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integrations Hub | ZEEYES Books - Connect Banks, Processors &amp; E-Commerce</title>
+  <meta name="description"
+    content="Explore 20+ seamless integrations supported by ZEEYES Books: Stripe, Shopify, QuickBooks, Xero, Plaid, Mercury, Gusto, Rippling, and 12,000+ banks.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="topbar-content">
+      <span class="topbar-badge">API V2.4 Released</span>
+      <span>Real-time webhook sync now live for Stripe, Mercury, Shopify &amp; Brex.</span>
+      <a href="#integrations-section">View Integrations &rarr;</a>
+    </div>
+    <button class="topbar-close">&times;</button>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/images/logo.svg" alt="ZEEYES Books Logo" width="165" height="38">
+      </a>
+      <nav class="nav-links">
+        <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
+        <div class="nav-item"><a href="services.html" class="nav-link">Services</a></div>
+        <div class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></div>
+        <div class="nav-item"><a href="integrations.html" class="nav-link active">Integrations</a></div>
+        <div class="nav-item"><a href="resources.html" class="nav-link">Resources</a></div>
+        <div class="nav-item"><a href="about.html" class="nav-link">About Us</a></div>
+        <div class="nav-item"><a href="contact.html" class="nav-link">Contact</a></div>
+      </nav>
+      <div class="nav-actions">
+        <a href="login.html" class="login-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+            <polyline points="10 17 15 12 10 7"></polyline>
+            <line x1="15" y1="12" x2="3" y2="12"></line>
+          </svg>
+          Client Login
+        </a>
+        <button class="btn btn-primary" data-modal-target="consultation-modal">Book Free Demo</button>
+        <button class="mobile-menu-toggle" aria-label="Toggle Navigation Menu">&#9776;</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-backdrop"></div>
+  <aside class="mobile-drawer">
+    <div class="drawer-header">
+      <img src="assets/images/logo.svg" alt="ZEEYES Books" width="140" height="32">
+      <button class="drawer-close">&times;</button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="integrations.html" class="active">Integrations</a>
+      <a href="resources.html">Resources</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="login.html" style="color: var(--color-primary); font-weight: 700;">Client Portal &rarr;</a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- Integrations Hero Banner -->
+    <section class="section section-subtle" style="padding-top: 4rem; padding-bottom: 3.5rem;">
+      <div class="container text-center" style="max-width: 820px; margin: 0 auto;">
+        <span class="section-tag">Zero Manual Data Entry</span>
+        <h1 class="section-title" style="font-size: 3rem;"> Native Connectivity Across Your Entire Stack</h1>
+        <p class="section-subtitle">
+          From payment gateways and payroll to 12,000+ banks worldwide, ZEEYES Books syncs data continuously with
+          bank-level encryption. Click any integration below to inspect its sync parameters.
+        </p>
+      </div>
+    </section>
+
+    <!-- Interactive Integrations Directory -->
+    <section id="integrations-section" class="section">
+      <div class="container">
+        <!-- Filter and Search Bar -->
+        <div class="integrations-filter-bar">
+          <div class="filter-pills">
+            <button class="filter-pill active" data-category="all">All Tools</button>
+            <button class="filter-pill" data-category="accounting">Accounting</button>
+            <button class="filter-pill" data-category="banking">Banking &amp; Cards</button>
+            <button class="filter-pill" data-category="ecommerce">E-Commerce</button>
+            <button class="filter-pill" data-category="payments">Payments</button>
+            <button class="filter-pill" data-category="payroll">Payroll &amp; HR</button>
+            <button class="filter-pill" data-category="invoicing">AP &amp; Invoicing</button>
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <span id="integrations-count" style="font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">
+              16 Integrations
+            </span>
+            <div class="search-box">
+              <span class="search-icon">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <circle cx="11" cy="11" r="8" />
+                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+              </span>
+              <input type="text" id="integration-search" class="search-input"
+                placeholder="Search by name or category...">
+            </div>
+          </div>
+        </div>
+
+        <!-- Dynamic Grid Loaded by js/integrations.js -->
+        <div id="integrations-grid" class="integrations-grid">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Bank-Grade Security Assurance -->
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag tag-emerald">Institutional Security</span>
+          <h2 class="section-title">Your Financial Data Is Kept Under Vault-Level Security</h2>
+          <p class="section-subtitle">We treat your accounting data with the highest cybersecurity and privacy standards
+            in the fintech industry.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+          <div class="card card-dark">
+            <div
+              style="width: 48px; height: 48px; border-radius: var(--radius-md); background: rgba(5, 150, 105, 0.2); color: #34d399; display: flex; align-items: center; justify-content: center; margin-bottom: 1.25rem;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+              </svg>
+            </div>
+            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">Read-Only API Access</h3>
+            <p style="font-size: 0.9rem; color: #94a3b8; line-height: 1.6;">
+              ZEEYES Books connects via read-only OAuth tokens. We can only view statement balances and transaction
+              lines—we can never move funds, initiate transfers, or alter bank accounts.
+            </p>
+          </div>
+
+          <div class="card card-dark">
+            <div
+              style="width: 48px; height: 48px; border-radius: var(--radius-md); background: rgba(5, 150, 105, 0.2); color: #34d399; display: flex; align-items: center; justify-content: center; margin-bottom: 1.25rem;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+            </div>
+            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">256-Bit AES Encryption</h3>
+            <p style="font-size: 0.9rem; color: #94a3b8; line-height: 1.6;">
+              All data transmitted between your software, our servers, and your dedicated CPA is protected with
+              end-to-end TLS 1.3 encryption and 256-bit AES at rest.
+            </p>
+          </div>
+
+          <div class="card card-dark">
+            <div
+              style="width: 48px; height: 48px; border-radius: var(--radius-md); background: rgba(5, 150, 105, 0.2); color: #34d399; display: flex; align-items: center; justify-content: center; margin-bottom: 1.25rem;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <polyline points="14 2 14 8 20 8" />
+                <line x1="16" y1="13" x2="8" y2="13" />
+                <line x1="16" y1="17" x2="8" y2="17" />
+                <polyline points="10 9 9 9 8 9" />
+              </svg>
+            </div>
+            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">SOC2 Type II Certified</h3>
+            <p style="font-size: 0.9rem; color: #94a3b8; line-height: 1.6;">
+              Our infrastructure and internal operational procedures are audited annually by independent third-party
+              cybersecurity firms for SOC2 Type II compliance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Custom API & ERP Connector Section -->
+    <section class="section">
+      <div class="container container-narrow">
+        <div
+          style="background: #ffffff; border: 1px solid var(--border-light); border-radius: var(--radius-xl); padding: 3rem; box-shadow: var(--shadow-sm); text-align: center;">
+          <div
+            style="width: 56px; height: 56px; margin: 0 auto 1.25rem auto; background: #ecfdf5; color: #047857; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="3" />
+              <path
+                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
+            </svg>
+          </div>
+          <h3 style="font-family: var(--font-display); font-size: 1.85rem; font-weight: 800; margin-bottom: 1rem;">
+            Using NetSuite, SAP, or a Custom Database?
+          </h3>
+          <p style="color: var(--text-muted); font-size: 1rem; line-height: 1.6; margin-bottom: 2rem;">
+            For high-growth mid-market companies, our engineering team builds custom bi-directional REST API connectors,
+            automated SFTP drops, and custom Postgres/Snowflake ETL financial pipelines.
+          </p>
+          <button class="btn btn-primary btn-lg" data-modal-target="consultation-modal">Speak with an Integration
+            Engineer</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/images/logo-white.svg" alt="ZEEYES Books" width="165" height="38">
+          <p>The premier cloud bookkeeping, tax compliance, and fractional CFO partner for ambitious startups and
+            growing enterprises.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-nav-list">
+            <li><a href="services.html#bookkeeping">Monthly Bookkeeping</a></li>
+            <li><a href="services.html#tax">Corporate Tax Prep</a></li>
+            <li><a href="services.html#cfo">Fractional CFO</a></li>
+            <li><a href="services.html#catchup">Catch-Up Bookkeeping</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Company</h4>
+          <ul class="footer-nav-list">
+            <li><a href="about.html">About ZEEYES</a></li>
+            <li><a href="pricing.html">Pricing Plans</a></li>
+            <li><a href="integrations.html">Integrations Hub</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="login.html">Client Portal</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Resources</h4>
+          <ul class="footer-nav-list">
+            <li><a href="resources.html">Knowledge Hub</a></li>
+            <li><a href="resources.html#calculator">Runway Calculator</a></li>
+            <li><a href="resources.html#templates">Spreadsheet Models</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4 class="footer-heading">Stay Informed</h4>
+          <p>Get our weekly financial digest on taxes, runway, and cash management.</p>
+          <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="you@company.com" required>
+            <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="system-status">
+          <span class="status-dot"></span>
+          <span>All systems operational &middot; Bank Feeds Active</span>
+        </div>
+        <div>&copy; 2026 ZEEYES Books Inc. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Consultation Modal -->
+  <div id="consultation-modal" class="modal-overlay" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3>Request Integration Setup</h3>
+        <button class="modal-close-btn" data-modal-close>&times;</button>
+      </div>
+      <div class="modal-body">
+        <form
+          onsubmit="event.preventDefault(); window.showToast('Integration request received! Our team will contact you shortly.', 'success'); document.getElementById('consultation-modal').classList.remove('open'); document.body.style.overflow = '';">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">First Name *</label>
+              <input type="text" class="form-control" required placeholder="Alex">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Last Name *</label>
+              <input type="text" class="form-control" required placeholder="Rivers">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Work Email *</label>
+            <input type="email" class="form-control" required placeholder="alex@company.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Tools you want to connect:</label>
+            <input type="text" class="form-control" placeholder="e.g. Stripe, Mercury, Gusto, NetSuite">
+          </div>
+          <button type="submit" class="btn btn-primary btn-block btn-lg" style="margin-top: 1rem;">Submit Integration
+            Request</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/integrations.js"></script>
+</body>
+
+</html>
